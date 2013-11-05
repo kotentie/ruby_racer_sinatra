@@ -1,0 +1,32 @@
+.container {
+  margin: 20px auto;
+  width: 600px;
+  padding: 20px 20px 20px 20px;
+  border: 1px dotted black;
+}
+th {
+  text-align: left;
+}
+
+h1 {
+  margin-top: 0px;
+}
+
+table {
+  background-color: deeppink;
+}
+
+td {
+  border: solid 1px darkgray;
+  color: pink;
+  width: 20px;
+  height: 20px;
+}
+
+td.active {
+  background-color: white;
+}
+
+.winning td {
+  width: 100px;
+}

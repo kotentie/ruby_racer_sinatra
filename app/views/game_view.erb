@@ -1,0 +1,65 @@
+<div class="container">
+  <h1>Welcome to JavaScript Racer!</h1>
+<table class="racer_table">
+  <tr id="player1_strip">
+    <td class="active"></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr id="player2_strip">
+    <td class="active"></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+</table>
+<br>
+<br>
+<button type='button' id='start_button'> Start </button>
+<button type='button' id='reset_button'> Reset </button>
+<a href='/stats'><button type='button' id='reset_button'> Stats </button></a>
+
+<br>
+
+
+<table class='winning'>
+  <tr>
+  <td><%= @player1.name %>: </td>
+  <td id='player1_win'></td>
+</tr>
+<tr>
+<td><%= @player2.name %>: </td>
+<td id ='player2_win'></td>
+</tr>
+
+</table>
+</div>
