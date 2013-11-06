@@ -46,18 +46,19 @@
 <br>
 <button type='button' id='start_button'> Start </button>
 <button type='button' id='reset_button'> Reset </button>
-<a href='/stats'><button type='button' id='reset_button'> Stats </button></a>
+<button type='button' id='stats_button'> Stats </button>
+<input type="hidden" id="hidden_game_id" value="<%= @current_game.id %>">
 
 <br>
 
 
 <table class='winning'>
   <tr>
-  <td><%= @player1.name %>: </td>
+  <td id='name1'><%= @player1.name %>: </td>
   <td id='player1_win'></td>
 </tr>
 <tr>
-<td><%= @player2.name %>: </td>
+<td id='name2'><%= @player2.name %>: </td>
 <td id ='player2_win'></td>
 </tr>
 
